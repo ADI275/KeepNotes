@@ -1,0 +1,5 @@
+.Note{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: fit-content;
+}

@@ -1,0 +1,77 @@
+.note{
+    box-sizing: border-box;
+    margin: 1.5em;
+    padding: 0.25em;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px 0 #ccc;
+    height: fit-content;
+}
+.note-checked{
+    opacity: 0.65;
+    box-sizing: border-box;
+    margin: 1.5em;
+    padding: 0.25em;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px 0 #ccc;
+    height: fit-content;
+}
+.note-checked h2{
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+}
+.note-checked p{
+    white-space: pre-line;
+}
+.note h2{
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+}
+.note p{
+    white-space: pre-line;
+}
+.delete{
+    float: right;
+}
+.check{
+    float: left;
+}
+.check button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.2em;
+    border-radius: 50%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.check button:hover{
+    background-color: white;
+    color: green;
+}
+.delete button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.2em;
+    border-radius: 50%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.delete button:hover{
+    background-color: white;
+    color: red;
+}
